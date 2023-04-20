@@ -4,23 +4,17 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="bg-orange-500">
-      {/* <img
-        className="bg-cover rounded absolute h-64 w-full"
-        src="/public/hotel2.jpg"
-        alt=""
-      /> */}
-
       <div className="navbar justify-between text-white">
         <Link to="/">
-          <a className="btn btn-ghost normal-case text-2xl ">
+          <a className="text-2xl font-semibold text-black mx-10">
             Burj Al Khalifa Hotel
           </a>
         </Link>
 
-        <div className="gap-4">
+        <div className="gap-4  sm:mx-10 text-black">
           <NavLink
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-semibold" : "default"
+              isActive ? "text-white font-semibold" : "default"
             }
             to="/"
           >
@@ -28,7 +22,7 @@ const Header = () => {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-semibold" : "default"
+              isActive ? "text-white font-semibold" : "default"
             }
             to="/profile"
           >
@@ -36,7 +30,7 @@ const Header = () => {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-semibold" : "default"
+              isActive ? "text-white font-semibold" : "default"
             }
             to="/login"
           >
@@ -44,7 +38,7 @@ const Header = () => {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-semibold" : "default"
+              isActive ? "text-white font-semibold" : "default"
             }
             to="/register"
           >

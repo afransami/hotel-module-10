@@ -1,4 +1,8 @@
 import React from "react";
+import { BeakerIcon } from '@heroicons/react/24/solid'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBed, faChildren, faDollarSign} from '@fortawesome/free-solid-svg-icons'
+
 
 const Home = () => {
   return (
@@ -16,7 +20,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-between container mx-auto mt-10">
+      <div className="grid lg:grid-cols-3 md:grid-col-1 justify-between container mx-auto mt-10">
       <div>
         <div className="card w-96 bg-base-100 shadow-xl">
         <h2 className="card-title py-2">
@@ -31,8 +35,12 @@ const Home = () => {
           </figure>
           <div className="card-body shadow-2xl">
             
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
+            <p>Each neighborhood of the city appeared to be made of a different substance, each seemed to have a different air pressure....</p>
+            <div className="card-actions justify-end items-center flex mt-5">
+            <FontAwesomeIcon icon={faBed}/> : 1
+            <FontAwesomeIcon icon={faChildren} /> : 1
+            <FontAwesomeIcon icon={faDollarSign} /> : 119
+            
               <button className="badge badge-warning py-3 font-semibold hover:bg-orange-500">Book Now</button>              
             </div>
           </div>
@@ -52,8 +60,12 @@ const Home = () => {
           </figure>
           <div className="card-body shadow-2xl">
             
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
+          <p>Each neighborhood of the city appeared to be made of a different substance, each seemed to have a different air pressure....</p>
+            <div className="card-actions justify-end items-center flex mt-5">
+            <FontAwesomeIcon icon={faBed}/> : 1
+            <FontAwesomeIcon icon={faChildren} /> : 1
+            <FontAwesomeIcon icon={faDollarSign} /> : 119
+
             <button className="badge badge-warning py-3 font-semibold hover:bg-orange-500">Book Now</button>
             </div>
           </div>
@@ -61,7 +73,7 @@ const Home = () => {
       </div>
       <div>
         <div className="card w-96 bg-base-100 shadow-xl">
-        <h2 className="card-title py-2">
+        <h2 className="card-title py-2 text-center">
             Standard Double Suit!
               <div className="badge badge-warning">LUXURY</div>
             </h2>
@@ -73,8 +85,11 @@ const Home = () => {
           </figure>
           <div className="card-body shadow-2xl">
             
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
+          <p>Each neighborhood of the city appeared to be made of a different substance, each seemed to have a different air pressure....</p>
+            <div className="card-actions justify-end items-center flex mt-5">
+            <FontAwesomeIcon icon={faBed}/> : 1
+            <FontAwesomeIcon icon={faChildren} /> : 1
+            <FontAwesomeIcon icon={faDollarSign} /> : 119
             <button className="badge badge-warning py-3 font-semibold hover:bg-orange-500">Book Now</button>
             </div>
           </div>
